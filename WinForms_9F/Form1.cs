@@ -83,7 +83,7 @@ namespace WinForms_9F
         }
         private void Delete(int id)
         {
-            //Sil
+            //Silme
             try
             {
                 connection.Open();
@@ -94,7 +94,7 @@ namespace WinForms_9F
             }
             catch (Exception u)
             {
-                MessageBox.Show("Xəta" + u.Message);
+                MessageBox.Show("Xətaa" + u.Message);
             }
             finally
             {
